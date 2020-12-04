@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="/gift-cards.css">
+
+    <title>Iavazzo's Pizza: Gift Cards</title>
+
+    <style>
+        body {
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#iavazzosNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="iavazzosNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Home |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/menu.html">Menu |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/order-online.html">Order Online |</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Gift Cards |</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="form-container">
+        <!-- <img class="d-none d-xl-block " src="/img/ingredients.jpeg" alt="Fresh ingredients"> -->
+        <form class="form" action="">
+            <div class="form-title">Purchase Gift Card(s)</div>
+            <p class="form-description">
+                Our gift cards make a wonderful gift for any birthday, holiday or special occasion.
+            </p>
+            <div class="form-item">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-input" name="firstName" id="firstName" required />
+            </div>
+            <br />
+            <div class="form-item">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-input" name="lastName" id="lastName" required />
+            </div>
+            <br />
+            <div class="form-item">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-input" name="firstName" id="firstName" required />
+            </div>
+            <br />
+            <div class="form-item">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" class="form-input form-input--small" name="phone" id="phone" required />
+            </div>
+            <br />
+            <div class="form-item">
+                <label for="amount" class="form-label">Gift Card Amount</label>
+                <input type="text" class="form-input form-input--small" name="amount" id="amount" required />
+            </div>
+            <br />
+            <div class="form-item">
+                <button class="form-btn" type="submit">Payment</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <h4>2929 Atwood Avenue</h4>
+            <h4>Providence, RI 02903</h4>
+            <h4>(401) 555-1009</h4>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/scripts.js"></script>
+
+</body>
+</html>
