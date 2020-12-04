@@ -21,11 +21,6 @@ ul {
     list-style: none;
 }
 
-.navbar-brand {
-    font-family: cursive;
-    font-size: 2vw;
-}
-
 body {
     max-width: 95vw;
     margin: 0 auto;

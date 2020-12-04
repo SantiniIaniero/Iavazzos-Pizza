@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: rgb(140, 21, 53);
+    padding: 10px;
+}
+
+.navbar-nav {
+    font-size: 1vw;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-container {
+    padding: 60px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(110, 102, 102);
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.menu-header {
+    margin-bottom: 35px;
+}
+
+.heading {
+    font-size: 35px;
+    color: white;
+}
+
+#menu-filters ul li {
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+#menu-filters ul li a {
+    padding: 10px 20px;
+    border-radius: 0px;
+    border: 1px solid rgb(110, 102, 102);
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+#menu-filters ul li a.active, #menu-filters ul li a:hover {
+    background-color: rgb(140, 21, 53);
+    border: 1px solid white;
+}
+
+.menu-restaurant {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+.menu-restaurant .menu-title {
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.menu-restaurant .menu-line {
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 1px dotted rgb(110, 102, 102);
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+
+.menu-restaurant .menu-price {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-restaurant .menu-subtitle {
+    display: block;
+    float: left;
+    font-size: 1.2rem;
+}
+
+.menu-restaurant span.clearfix {
+    position: relative;
+    display: block;
+}
+
+.site-footer {
+    text-align: center;
+    color: rgb(209, 190, 190);
+    background-color: rgb(140, 21, 53);
+    padding: 30px 0;
+}
+
+h4 {
+    font-size: 1vw;
+}
