@@ -1,3 +1,11 @@
+html, body {
+    height: 100%;
+}
+
+#page-container {
+    min-height: 100%;
+}
+
 .navbar {
     background-color: rgb(140, 21, 53);
     padding: 10px;
@@ -36,7 +44,7 @@ img {
     color: rgb(110, 102, 102);
     font-family: cursive;
     display: inline-block;
-    padding: 20px;
+    padding: 75px;
 }
 
 .form * {
@@ -104,6 +112,31 @@ img {
     background-color: rgb(140, 21, 53);
     color: white;
     align-self: center;
+}
+
+.modal-header {
+    background-color: rgb(140, 21, 53);
+    color: rgb(202, 182, 182);
+}
+
+.card-selector {
+    margin-bottom: 10px;
+}
+
+.visa {
+    background-image: url('/img/visa-icon.png');
+}
+
+.mastercard {
+    background-image: url('/img/mastercard-icon.png');
+}
+
+.card {
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
 }
 
 .site-footer {
