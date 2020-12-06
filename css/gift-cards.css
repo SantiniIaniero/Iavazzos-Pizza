@@ -26,14 +26,6 @@ body {
     padding: 25px;
 }
 
-img {
-    position: relative;
-    float: right;
-    top: 50px;
-    right: 20px;
-    bottom: 50px;
-}
-
 .form-container {
     display: block;
     text-align: center;
@@ -121,22 +113,7 @@ img {
 
 .card-selector {
     margin-bottom: 10px;
-}
 
-.visa {
-    background-image: url('/img/visa-icon.png');
-}
-
-.mastercard {
-    background-image: url('/img/mastercard-icon.png');
-}
-
-.card {
-    cursor: pointer;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 30px;
 }
 
 .site-footer {
