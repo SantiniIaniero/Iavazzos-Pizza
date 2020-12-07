@@ -94,12 +94,12 @@ h2 {
 h3 {
     font-size: 1.5vw;
     font-family: cursive;
-    color: rgb(110, 102, 102);
+    color: 	rgb(110, 102, 102);
 }
 
 .site-footer {
     text-align: center;
-    color: rgb(209, 190, 190);
+    color: 	rgb(249, 241, 243);
     background-color: rgb(140, 21, 53);
     padding: 30px 0;
 }
